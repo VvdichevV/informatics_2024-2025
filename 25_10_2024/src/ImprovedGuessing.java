@@ -23,11 +23,11 @@ public class ImprovedGuessing {
                 }
             } else {
                 String text = sc.next();
-                if(text.equals("quit")){
-                    System.out.println("Thank you for playing. The correct number was " + num + " Goodbye!");
+                if (text.equals("quit")) {
+                    System.out.println("Thank you for playing. The correct number was " + num + ". Goodbye!");
                     break;
-                }else{
-                    System.out.println("Invalid input.");
+                } else {
+                    System.out.println("Invalid input. Try again.");
                 }
             }
             attempts++;
