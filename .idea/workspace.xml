@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change beforePath="$PROJECT_DIR$/12_11_2024/src/EventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/12_11_2024/src/EventHandler.java" afterDir="false" />
+    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Clicking Game - Event Handler">
+      <change afterPath="$PROJECT_DIR$/13_10_2024/13_10_2024.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_10_2024/src/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -36,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Calculator.executor": "Run",
     "Application.EventHandler.executor": "Run",
     "Application.ImprovedGuessing.executor": "Run",
     "Application.Main.executor": "Run",
@@ -82,7 +87,10 @@
       <workItem from="1730045929473" duration="63000" />
       <workItem from="1730794801089" duration="610000" />
       <workItem from="1731400656156" duration="35000" />
-      <workItem from="1731400703211" duration="323000" />
+      <workItem from="1731400703211" duration="1432000" />
+      <workItem from="1731479676809" duration="90000" />
+      <workItem from="1731479845676" duration="161000" />
+      <workItem from="1731480155757" duration="1229000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -100,16 +108,36 @@
       <option name="project" value="LOCAL" />
       <updated>1731400882567</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Clicking Game - Event Handler">
+      <option name="closed" value="true" />
+      <created>1731401065954</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731401065954</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Improved Guessing game and file system" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="Clicking Game - Event Handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clicking Game - Event Handler" />
   </component>
 </project>
