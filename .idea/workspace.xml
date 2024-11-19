@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Clicking Game - Event Handler">
-      <change afterPath="$PROJECT_DIR$/13_10_2024/13_10_2024.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13_10_2024/src/Calculator.java" afterDir="false" />
+    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Working Calculator App">
+      <change afterPath="$PROJECT_DIR$/.idea/GitLink.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19_11_2024/19_11_2024.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19_11_2024/src/addressBookExtended.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/19_11_2024/src/library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -24,7 +26,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -46,7 +47,9 @@
     "Application.Main.executor": "Run",
     "Application.Quiz.executor": "Run",
     "Application.Vending.executor": "Debug",
+    "Application.addressBookExtended.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -58,7 +61,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -90,7 +93,10 @@
       <workItem from="1731400703211" duration="1432000" />
       <workItem from="1731479676809" duration="90000" />
       <workItem from="1731479845676" duration="161000" />
-      <workItem from="1731480155757" duration="1229000" />
+      <workItem from="1731480155757" duration="1732000" />
+      <workItem from="1731652401073" duration="1092000" />
+      <workItem from="1732002714416" duration="306000" />
+      <workItem from="1732003042036" duration="2775000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -116,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731401065954</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Working Calculator App">
+      <option name="closed" value="true" />
+      <created>1731481430166</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731481430166</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +152,7 @@
     <MESSAGE value="Improved Guessing game and file system" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Clicking Game - Event Handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clicking Game - Event Handler" />
+    <MESSAGE value="Working Calculator App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working Calculator App" />
   </component>
 </project>
