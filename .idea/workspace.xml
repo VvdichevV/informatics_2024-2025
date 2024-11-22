@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Working Calculator App">
-      <change afterPath="$PROJECT_DIR$/.idea/GitLink.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_11_2024/19_11_2024.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_11_2024/src/addressBookExtended.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/19_11_2024/src/library.java" afterDir="false" />
+    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="New Classes Lesson">
+      <change afterPath="$PROJECT_DIR$/05_12_2024/05_12_2024.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05_12_2024/src/GuessingGameWithUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/19_11_2024/19_11_2024.iml" beforeDir="false" afterPath="$PROJECT_DIR$/19_11_2024/19_11_2024.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,7 @@
     "Application.Quiz.executor": "Run",
     "Application.Vending.executor": "Debug",
     "Application.addressBookExtended.executor": "Run",
+    "Application.library.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -57,7 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/vdichev26/IdeaProjects/18_10_2024_informatics/src/Main.java",
+    "onboarding.tips.debug.path": "/home/vdichev26/IdeaProjects/informatics_2024-2025/18_10_2024/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -96,7 +96,11 @@
       <workItem from="1731480155757" duration="1732000" />
       <workItem from="1731652401073" duration="1092000" />
       <workItem from="1732002714416" duration="306000" />
-      <workItem from="1732003042036" duration="2775000" />
+      <workItem from="1732003042036" duration="2993000" />
+      <workItem from="1732256620488" duration="286000" />
+      <workItem from="1732256918925" duration="37000" />
+      <workItem from="1732256995004" duration="6000" />
+      <workItem from="1732257148994" duration="220000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -130,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731481430166</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New Classes Lesson">
+      <option name="closed" value="true" />
+      <created>1732006187789</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732006187790</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +165,18 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Clicking Game - Event Handler" />
     <MESSAGE value="Working Calculator App" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working Calculator App" />
+    <MESSAGE value="New Classes Lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Classes Lesson" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/18_10_2024/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
