@@ -60,36 +60,6 @@ public class GuessingGameWithUI {
                 }
             }
         });
-
-        /*
-
-        int answer;
-        do {
-            if (sc.hasNextInt()) {
-                answer = sc.nextInt();
-                attempts++;
-                if (answer > num) {
-                    System.out.println("The number is lower than the number you guessed.");
-                } else if (answer < num) {
-                    System.out.println("The number is greater than the number you guessed.");
-                } else {
-                    System.out.println("You guessed correctly!");
-                    break;
-                }
-            } else {
-                String text = sc.next();
-                if (text.equals("quit")) {
-                    System.out.println("Thank you for playing. The correct number was " + num + ". Goodbye!");
-                    break;
-                } else {
-                    System.out.println("Invalid input. Try again.");
-                }
-            }
-        } while (true);
-        System.out.println("You made " + attempts + " attempts.");
-        sc.close();
-
-         */
     }
 
     public static void buttonStyle(JButton button) {
