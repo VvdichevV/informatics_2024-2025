@@ -14,7 +14,6 @@ public class rpg {
         System.out.println(warrior.getName()+" attacks " + wizard.getName() + ". Health updated: " + wizard.getHealth());
         demonKing.setHealth(wizard.getDarkMagic());
         System.out.println(wizard.getName()+" attacks " + demonKing.getName() + ". Health updated: " + demonKing.getHealth());
-
         // Task 6: make the wizard attack your new character.
         // Task 7: display the new stats
 
