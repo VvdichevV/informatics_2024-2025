@@ -1,5 +1,5 @@
 public class Main {
-    public void main(String[] args) {
+    public static void main(String[] args) {
 
         Habitat habitat1 = new Habitat("Savannah", 5, 16);
         Habitat habitat2 = new Habitat("Ocean", 5, 26);
@@ -26,86 +26,90 @@ public class Main {
         zoo.a1.eatFood("rhino meat", s1);
         zoo.a2.eatFood("fish food", s2);
         zoo.a3.eatFood("shrimp", s3);
+        zoo.a4.eatFood("carrot", s4);
+    }
+}
+
+class Zoo {
+    //composition
+    Animal a1;
+    Animal a2;
+    Animal a3;
+    Animal a4;
+
+
+    void addAnimal1() {
+        a1 = new Animal("Rory", "lion", 10, new Habitat("Savannah", 5, 16));
     }
 
-    class Zoo {
-        //composition
-        private Animal a1;
-        private Animal a2;
-        private Animal a3;
-        private Animal a4;
+    void addAnimal2() {
+        a2 = new Animal("Nemo", "clownfish", 2, new Habitat("Ocean", 5, 26));
+    }
 
+    void addAnimal3() {
+        a3 = new Animal("Viktor", "octopus", 17, new Habitat("Ocean", 100, 26));
+    }
 
-        void addAnimal1() {
-            a1 = new Animal("Rory", "lion", 10, new Habitat("Savannah", 5, 16));
-        }
+    void addAnimal4() {
+        a4 = new Animal("Bugs Bunny", "bunny", 83, new Habitat("Forest", 1000, 28));
+    }
 
-        void addAnimal2() {
-            a2 = new Animal("Nemo", "clownfish", 2, new Habitat("Ocean", 5, 26));
-        }
+}
 
-        void addAnimal3() {
-            a3 = new Animal("Viktor", "octopus", 17, new Habitat("Ocean", 100, 26));
-        }
+class Animal {
+    private String name;
+    private String species;
+    private int age;
+    //composition
+    private Habitat habitat;
 
-        void addAnimal4() {
-            a4 = new Animal("Bugs Bunny", "bunny", 83, new Habitat("Forest", 1000, 28));
-        }
+    public Animal(String name, String species, int age, Habitat habitat) {
+        this.name = name;
+        this.species = species;
+        this.age = age;
+        this.habitat = habitat;
 
     }
 
-    class Animal {
-        private String name;
-        private String species;
-        private int age;
-        //composition
-        private Habitat habitat;
+    void eatFood(String food, Staff staff) {
+        //association
+        System.out.println("Staff member " + staff.getName() + " feeds " + species + " " + name + " " + food);
+    }
+}
 
-        public Animal(String name, String species, int age, Habitat habitat) {
-            this.name = name;
-            this.species = species;
-            this.age = age;
-            this.habitat = habitat;
+class Staff {
+    private String name;
+    private String role;
+    //composition
+    private Habitat assignedHabitat;
 
-        }
-
-        void eatFood(String food, Staff staff) {
-            //association
-            System.out.println("Staff member " + staff.getName() + " feeds " + species + " " + name + " " + food);
-        }
+    public Staff(String name, String role) {
+        this.name = name;
+        this.role = role;
     }
 
-    class Staff {
-        private String name;
-        private String role;
-        //composition
-        private Habitat assignedHabitat;
-
-        public Staff(String name, String role) {
-            this.name = name;
-            this.role = role;
-        }
-
-        // association
-        void assignStaff(Habitat habitat) {
-            System.out.println(name + " is assigned to " + habitat.type);
-            this.assignedHabitat = habitat;
-        }
-
-        String getName() {
-            return name;
-        }
+    // association
+    void assignStaff(Habitat habitat) {
+        this.assignedHabitat = habitat;
+        System.out.println(name + " is assigned to " + assignedHabitat.getType());
     }
 
-    class Habitat {
-        private String type;
-        private double size;
-        private double temperature;
+    String getName() {
+        return name;
+    }
+}
 
-        public Habitat(String type, double size, double temperature) {
-            this.type = type;
-            this.size = size;
-            this.temperature = temperature;
-        }
+class Habitat {
+    private String type;
+    private double size;
+    private double temperature;
+
+    public Habitat(String type, double size, double temperature) {
+        this.type = type;
+        this.size = size;
+        this.temperature = temperature;
+    }
+    String getType(){
+        return type;
     }
 }
