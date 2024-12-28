@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Made the zoo assignment">
-      <change afterPath="$PROJECT_DIR$/09_01_2025/09_01_2025.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_01_2025/src/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Made the inventory management system">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_01_2025/src/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/09_01_2025/src/Inventory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +121,7 @@
       <workItem from="1733294795743" duration="3468000" />
       <workItem from="1733298824876" duration="1241000" />
       <workItem from="1735402285519" duration="1493000" />
-      <workItem from="1735403846704" duration="2368000" />
+      <workItem from="1735403846704" duration="3012000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -245,7 +243,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733299130438</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Made the inventory management system">
+      <option name="closed" value="true" />
+      <created>1735406337887</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1735406337887</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +281,7 @@
     <MESSAGE value="Made the RPG task during class" />
     <MESSAGE value="Made the RPG and composition task during class" />
     <MESSAGE value="Made the zoo assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made the zoo assignment" />
+    <MESSAGE value="Made the inventory management system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made the inventory management system" />
   </component>
 </project>
