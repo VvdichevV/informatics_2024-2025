@@ -51,7 +51,7 @@ public class RockPaperScissors {
         int originalWidth = scissorsOriginalIcon.getIconWidth();
         int originalHeight = scissorsOriginalIcon.getIconHeight();
 
-        double scaleFactor = Math.min(300.0 / originalWidth, 300.0 / originalHeight);
+        double scaleFactor = Math.min(300 / originalWidth, 300 / originalHeight);
 
         int scaledWidth = (int) (originalWidth * scaleFactor);
         int scaledHeight = (int) (originalHeight * scaleFactor);

@@ -51,13 +51,9 @@ public class RockPaperScissors {
         int originalWidth = scissorsOriginalIcon.getIconWidth();
         int originalHeight = scissorsOriginalIcon.getIconHeight();
 
-        double scaleFactor = Math.min(300.0 / originalWidth, 300.0 / originalHeight);
-
-        int scaledWidth = (int) (originalWidth * scaleFactor);
-        int scaledHeight = (int) (originalHeight * scaleFactor);
-
         Image scissors = scissorsOriginalIcon.getImage()
-                .getScaledInstance(scaledWidth, scaledHeight,
+                .getScaledInstance((int) (originalWidth * Math.min(300.0 / originalWidth, 300.0 / originalHeight)),
+                        (int) (originalHeight * Math.min(300.0 / originalWidth, 300.0 / originalHeight)),
                         Image.SCALE_SMOOTH);
         ImageIcon scissorsIcon = new ImageIcon(scissors);
 
