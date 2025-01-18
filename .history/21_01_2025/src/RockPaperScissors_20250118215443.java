@@ -12,16 +12,15 @@ public class RockPaperScissors {
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         frame.setLayout(null);
 
-        // Create ImageIcon with the GIF
-        ImageIcon gifIcon = new ImageIcon("21_01_2025\\src\\title.gif");
+        // Replace the text label with a GIF
+        ImageIcon gifIcon = new ImageIcon("path/to/your/gif/file.gif");
         JLabel titleLabel = new JLabel(gifIcon);
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        // Set bounds to match the 600x300 image size
-        titleLabel.setBounds(300, 100, 600, 300);
+        // Adjust bounds based on your GIF size
+        titleLabel.setBounds(350, 200, 500, 200); // Adjust height as needed
 
         JButton startGameButton = new JButton("Start Game");
         buttonStyle(startGameButton);
-        // Move the button down to account for the larger image
         startGameButton.setBounds(450, 400, 300, 60);
 
         JButton exitGameButton = new JButton("Exit Game");

@@ -17,7 +17,7 @@ public class RockPaperScissors {
         JLabel titleLabel = new JLabel(gifIcon);
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
         // Set bounds to match the 600x300 image size
-        titleLabel.setBounds(300, 100, 600, 300);
+        titleLabel.setBounds(150, 200, 600, 300);
 
         JButton startGameButton = new JButton("Start Game");
         buttonStyle(startGameButton);

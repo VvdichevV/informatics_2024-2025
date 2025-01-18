@@ -12,16 +12,13 @@ public class RockPaperScissors {
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         frame.setLayout(null);
 
-        // Create ImageIcon with the GIF
-        ImageIcon gifIcon = new ImageIcon("21_01_2025\\src\\title.gif");
-        JLabel titleLabel = new JLabel(gifIcon);
+        JLabel titleLabel = new JLabel("Rock, Paper, Scissors");
+        titleLabel.setFont(new Font("Algerian", Font.BOLD | Font.ITALIC, 45));
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        // Set bounds to match the 600x300 image size
-        titleLabel.setBounds(300, 100, 600, 300);
+        titleLabel.setBounds(350, 200, 500, 100);
 
         JButton startGameButton = new JButton("Start Game");
         buttonStyle(startGameButton);
-        // Move the button down to account for the larger image
         startGameButton.setBounds(450, 400, 300, 60);
 
         JButton exitGameButton = new JButton("Exit Game");
@@ -33,11 +30,16 @@ public class RockPaperScissors {
         nameLabel.setHorizontalAlignment(SwingConstants.CENTER);
         nameLabel.setBounds(450, 800, 300, 40);
 
+        //SplashScreen splash = SplashScreen.getSplashScreen();
+        //Graphics2D g2d = splash.createGraphics();
+
+
         frame.add(titleLabel);
         frame.add(startGameButton);
         frame.add(exitGameButton);
         frame.add(nameLabel);
         frame.getContentPane().setBackground(Color.decode("#ADEEE3"));
+        //frame.add(splash);
         frame.setVisible(true);
     }
 
@@ -45,5 +47,6 @@ public class RockPaperScissors {
         button.setFont(new Font("Arial", Font.BOLD, 32));
         button.setForeground(Color.BLUE);
         button.setFocusPainted(false);
+        
     }
 }
