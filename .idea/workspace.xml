@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Made the inventory management system" />
+    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;21_01_2025/src/RockPaperScissors.java">
+      <change afterPath="$PROJECT_DIR$/21_01_2025/src/RockPaperScissors$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/21_01_2025/src/RockPaperScissors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21_01_2025/src/RockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/21_01_2025/src/RockPaperScissors.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +26,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VvdichevV&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VvdichevV/informatics_2024-2025.git&quot;,
+    &quot;accountId&quot;: &quot;1dfd0f89-5ca2-4ccc-b508-dc42664ddde3&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -44,6 +61,7 @@
     &quot;Application.Inventory.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Quiz.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RockPaperScissors.executor&quot;: &quot;Run&quot;,
     &quot;Application.StudentDiscount.executor&quot;: &quot;Run&quot;,
     &quot;Application.Vending.executor&quot;: &quot;Debug&quot;,
     &quot;Application.addressBookExtended.executor&quot;: &quot;Run&quot;,
@@ -71,6 +89,20 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/19_11_2024 2/src" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RockPaperScissors" />
+      <module name="21_01_2025" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RockPaperScissors" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -120,6 +152,8 @@
       <workItem from="1733298824876" duration="1241000" />
       <workItem from="1735402285519" duration="1493000" />
       <workItem from="1735403846704" duration="3012000" />
+      <workItem from="1737445717626" duration="63000" />
+      <workItem from="1737446450269" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -249,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735406337887</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;21_01_2025/src/RockPaperScissors.java">
+      <option name="closed" value="true" />
+      <created>1737229818030</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1737229818030</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +322,8 @@
     <MESSAGE value="Made the RPG and composition task during class" />
     <MESSAGE value="Made the zoo assignment" />
     <MESSAGE value="Made the inventory management system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made the inventory management system" />
+    <MESSAGE value="Made Rock, Paper, Scissors title screen (early stages)" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;21_01_2025/src/RockPaperScissors.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;21_01_2025/src/RockPaperScissors.java" />
   </component>
 </project>

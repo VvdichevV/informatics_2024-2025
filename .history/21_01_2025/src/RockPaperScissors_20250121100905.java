@@ -13,7 +13,7 @@ public class RockPaperScissors {
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
         frame.setLayout(null);
 
-        ImageIcon gifIcon = new ImageIcon("21_01_2025/src/title.gif");
+        ImageIcon gifIcon = new ImageIcon("21_01_2025/src\\title.gif");
         JLabel titleLabel = new JLabel(gifIcon);
         titleLabel.setHorizontalAlignment(SwingConstants.CENTER);
         titleLabel.setBounds(300, 100, 600, 300);
@@ -47,7 +47,7 @@ public class RockPaperScissors {
         frame.getContentPane().removeAll();
         frame.repaint();
 
-        ImageIcon scissorsOriginalIcon = new ImageIcon("21_01_2025/src/scissors.png");
+        ImageIcon scissorsOriginalIcon = new ImageIcon("21_01_2025\\src\\scissors.png");
         int originalWidth = scissorsOriginalIcon.getIconWidth();
         int originalHeight = scissorsOriginalIcon.getIconHeight();
 
@@ -61,12 +61,12 @@ public class RockPaperScissors {
                         Image.SCALE_SMOOTH);
         ImageIcon scissorsIcon = new ImageIcon(scissors);
 
-        Image rock = (new ImageIcon("21_01_2025/src/rock.png"))
+        Image rock = (new ImageIcon("21_01_2025\\src\\rock.png"))
                 .getImage()
                 .getScaledInstance(300, 300, Image.SCALE_SMOOTH);
         ImageIcon rockIcon = new ImageIcon(rock);
 
-        Image paper = (new ImageIcon("21_01_2025/src/paper.png"))
+        Image paper = (new ImageIcon("21_01_2025\\src\\paper.png"))
                 .getImage()
                 .getScaledInstance(300, 300, Image.SCALE_SMOOTH);
         ImageIcon paperIcon = new ImageIcon(paper);
