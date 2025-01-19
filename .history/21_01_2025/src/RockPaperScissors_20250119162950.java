@@ -4,7 +4,6 @@ import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 import java.util.Random;
 
 public class RockPaperScissors {
-    private static int playerScore = 0;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Rock Paper Scissors");
@@ -88,31 +87,22 @@ public class RockPaperScissors {
         pickLabel.setHorizontalAlignment(SwingConstants.CENTER);
         pickLabel.setBounds(300, 50, 600, 100);
 
-        JLabel scoreLabel = new JLabel("Score: " + playerScore);
-        scoreLabel.setFont(new Font("Algerian", Font.BOLD | Font.ITALIC, 32));
-        scoreLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        scoreLabel.setBounds(900, 800, 300, 50);
-
         frame.add(rockButton);
         frame.add(paperButton);
         frame.add(scissorsButton);
         frame.add(nameLabel);
         frame.add(pickLabel);
         frame.add(nameLabel);
-        frame.add(scoreLabel);
         frame.revalidate();
         frame.repaint();
 
-        rockButton.addActionListener(
-                e -> gameLoop(rockButton, paperButton, scissorsButton, frame, nameLabel, scoreLabel));
-        paperButton.addActionListener(
-                e -> gameLoop(paperButton, scissorsButton, rockButton, frame, nameLabel, scoreLabel));
-        scissorsButton.addActionListener(
-                e -> gameLoop(scissorsButton, rockButton, paperButton, frame, nameLabel, scoreLabel));
+        rockButton.addActionListener(e -> gameLoop(rockButton, paperButton, scissorsButton, frame, nameLabel));
+        paperButton.addActionListener(e -> gameLoop(paperButton, scissorsButton, rockButton, frame, nameLabel));
+        scissorsButton.addActionListener(e -> gameLoop(scissorsButton, rockButton, paperButton, frame, nameLabel));
     }
 
     public static void gameLoop(JButton playerChoice, JButton loseChoice, JButton winChoice, JFrame frame,
-            JLabel nameLabel, JLabel scoreLabel) {
+            JLabel nameLabel) {
         frame.getContentPane().removeAll();
         frame.repaint();
 
@@ -139,7 +129,6 @@ public class RockPaperScissors {
         playerChoice.setBounds(100, 250, 300, 300);
 
         frame.add(pickLabel);
-        frame.add(scoreLabel);
         frame.add(playerChoice);
         frame.add(computerPickLabel);
         frame.add(vsLabel);
@@ -160,12 +149,10 @@ public class RockPaperScissors {
                 case 1:
                     computerChoiceIcon = (ImageIcon) ((JButton) loseChoice).getIcon();
                     resultText = "You lose";
-                    scoreLabel.setText("Score: " + --playerScore);
                     break;
                 case 2:
                     computerChoiceIcon = (ImageIcon) ((JButton) winChoice).getIcon();
                     resultText = "You win";
-                    scoreLabel.setText("Score: " + ++playerScore);
                     break;
             }
 
@@ -174,7 +161,7 @@ public class RockPaperScissors {
             frame.add(computerPick);
 
             computerPickLabel.setText("Computer pick:");
-            computerPickLabel.setBounds(770, 150, 350, 50);
+            computerPickLabel.setBounds(780, 150, 350, 50);
             resultLabel.setText(resultText);
 
             ((Timer) e.getSource()).stop();
@@ -184,13 +171,6 @@ public class RockPaperScissors {
         timer.start();
         frame.revalidate();
         frame.repaint();
-        frame.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                frame.getContentPane().removeAll();
-                frame.repaint();
-                mainGame(frame, nameLabel);
-            }
-        });
     }
 
     public static int showComputerChoice() {

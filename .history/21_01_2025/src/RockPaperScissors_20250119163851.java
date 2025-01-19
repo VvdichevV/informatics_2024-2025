@@ -91,7 +91,7 @@ public class RockPaperScissors {
         JLabel scoreLabel = new JLabel("Score: " + playerScore);
         scoreLabel.setFont(new Font("Algerian", Font.BOLD | Font.ITALIC, 32));
         scoreLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        scoreLabel.setBounds(900, 800, 300, 50);
+        scoreLabel.setBounds(1000, 800, 300, 50);
 
         frame.add(rockButton);
         frame.add(paperButton);
@@ -99,7 +99,6 @@ public class RockPaperScissors {
         frame.add(nameLabel);
         frame.add(pickLabel);
         frame.add(nameLabel);
-        frame.add(scoreLabel);
         frame.revalidate();
         frame.repaint();
 
@@ -160,12 +159,12 @@ public class RockPaperScissors {
                 case 1:
                     computerChoiceIcon = (ImageIcon) ((JButton) loseChoice).getIcon();
                     resultText = "You lose";
-                    scoreLabel.setText("Score: " + --playerScore);
+                    playerScore--;
                     break;
                 case 2:
                     computerChoiceIcon = (ImageIcon) ((JButton) winChoice).getIcon();
                     resultText = "You win";
-                    scoreLabel.setText("Score: " + ++playerScore);
+                    playerScore++;
                     break;
             }
 

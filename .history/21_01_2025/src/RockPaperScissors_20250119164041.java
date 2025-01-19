@@ -161,11 +161,12 @@ public class RockPaperScissors {
                     computerChoiceIcon = (ImageIcon) ((JButton) loseChoice).getIcon();
                     resultText = "You lose";
                     scoreLabel.setText("Score: " + --playerScore);
+                    playerScore--;
                     break;
                 case 2:
                     computerChoiceIcon = (ImageIcon) ((JButton) winChoice).getIcon();
                     resultText = "You win";
-                    scoreLabel.setText("Score: " + ++playerScore);
+                    playerScore++;
                     break;
             }
 
