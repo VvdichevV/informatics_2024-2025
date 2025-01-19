@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;21_01_2025/src/RockPaperScissors.java">
-      <change afterPath="$PROJECT_DIR$/21_01_2025/src/RockPaperScissors$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21_01_2025/src/RockPaperScissors.class" afterDir="false" />
+    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Made the full rock, paper, scissors, game with everything">
+      <change afterPath="$PROJECT_DIR$/11_02_2025/11_02_2025.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11_02_2025/src/gradebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21_01_2025/src/RockPaperScissors.java" beforeDir="false" afterPath="$PROJECT_DIR$/21_01_2025/src/RockPaperScissors.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="VvdichevV &lt;viko.dichev@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -49,42 +56,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Calculator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EmployeeBonus.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EventHandler.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GuessingGameWithUI.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HonorStudent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImprovedGuessing.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Inventory.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Quiz.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RockPaperScissors.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StudentDiscount.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Vending.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.addressBookExtended.executor&quot;: &quot;Run&quot;,
-    &quot;Application.compositionTask.executor&quot;: &quot;Run&quot;,
-    &quot;Application.library.executor&quot;: &quot;Run&quot;,
-    &quot;Application.rpg.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/vdichev26/IdeaProjects/informatics_2024-2025/18_10_2024/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Calculator.executor": "Run",
+    "Application.EmployeeBonus.executor": "Run",
+    "Application.EventHandler.executor": "Run",
+    "Application.GuessingGameWithUI.executor": "Run",
+    "Application.HonorStudent.executor": "Run",
+    "Application.ImprovedGuessing.executor": "Run",
+    "Application.Inventory.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Quiz.executor": "Run",
+    "Application.RockPaperScissors.executor": "Run",
+    "Application.StudentDiscount.executor": "Run",
+    "Application.Vending.executor": "Debug",
+    "Application.addressBookExtended.executor": "Run",
+    "Application.compositionTask.executor": "Run",
+    "Application.gradebook.executor": "Run",
+    "Application.library.executor": "Run",
+    "Application.rpg.executor": "Run",
+    "Application.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/vdichev26/IdeaProjects/informatics_2024-2025/18_10_2024/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/19_11_2024 2/src" />
@@ -154,6 +163,9 @@
       <workItem from="1735403846704" duration="3012000" />
       <workItem from="1737445717626" duration="63000" />
       <workItem from="1737446450269" duration="415000" />
+      <workItem from="1737447044633" duration="1154000" />
+      <workItem from="1737488180043" duration="1231000" />
+      <workItem from="1739263183459" duration="494000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -291,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737229818030</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Made the full rock, paper, scissors, game with everything">
+      <option name="closed" value="true" />
+      <created>1737447307906</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1737447307906</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +344,7 @@
     <MESSAGE value="Made the inventory management system" />
     <MESSAGE value="Made Rock, Paper, Scissors title screen (early stages)" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;21_01_2025/src/RockPaperScissors.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;21_01_2025/src/RockPaperScissors.java" />
+    <MESSAGE value="Made the full rock, paper, scissors, game with everything" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made the full rock, paper, scissors, game with everything" />
   </component>
 </project>

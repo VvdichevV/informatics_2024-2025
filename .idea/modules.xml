@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/04_12_2024/04_12_2024.iml" filepath="$PROJECT_DIR$/04_12_2024/04_12_2024.iml" />
       <module fileurl="file://$PROJECT_DIR$/05_11_2024/05_11_2024.iml" filepath="$PROJECT_DIR$/05_11_2024/05_11_2024.iml" />
       <module fileurl="file://$PROJECT_DIR$/09_01_2025/09_01_2025.iml" filepath="$PROJECT_DIR$/09_01_2025/09_01_2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11_02_2025/11_02_2025.iml" filepath="$PROJECT_DIR$/11_02_2025/11_02_2025.iml" />
       <module fileurl="file://$PROJECT_DIR$/12_11_2024/12_11_2024.iml" filepath="$PROJECT_DIR$/12_11_2024/12_11_2024.iml" />
       <module fileurl="file://$PROJECT_DIR$/13_10_2024/13_10_2024.iml" filepath="$PROJECT_DIR$/13_10_2024/13_10_2024.iml" />
       <module fileurl="file://$PROJECT_DIR$/19_11_2024/19_11_2024.iml" filepath="$PROJECT_DIR$/19_11_2024/19_11_2024.iml" />
@@ -14,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/25_10_2024/25_10_2024.iml" filepath="$PROJECT_DIR$/25_10_2024/25_10_2024.iml" />
       <module fileurl="file://$PROJECT_DIR$/27_11_2024/27_11_2024.iml" filepath="$PROJECT_DIR$/27_11_2024/27_11_2024.iml" />
       <module fileurl="file://$PROJECT_DIR$/informatics_2024-2025.iml" filepath="$PROJECT_DIR$/informatics_2024-2025.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>
