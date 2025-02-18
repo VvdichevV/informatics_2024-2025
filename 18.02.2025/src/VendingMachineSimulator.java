@@ -9,20 +9,25 @@ public class VendingMachineSimulator {
         do {
             printItems();
             System.out.print("Enter code (press 0 to exit): ");
-            int code = sc.nextInt();
-            if (code == 0) {break;}
-            if (quantity[code - 1] == 0) {
-                System.out.println("There is no more of: " + name[code]);
+            int code = sc.nextInt() - 1;
+            if (code == -1) {
+                break;
+            }else if(code < 0 || code >= name.length) {
+                System.out.println("Invalid code");
             }else {
-                System.out.println("Selected item: " + name[code - 1]);
-                System.out.print("Insert money: ");
-                double money = sc.nextDouble();
-                if (money < price[code - 1]) {
-                    System.out.println("You don't have enough money!");
+                if (quantity[code] == 0) {
+                    System.out.println("There is no more of: " + name[code]);
                 } else {
-                    System.out.println("Dispensing " + name[code - 1]);
-                    System.out.println("Change: " + (money - price[code - 1]));
-                    quantity[code - 1]--;
+                    System.out.println("Selected item: " + name[code]);
+                    System.out.print("Insert money: ");
+                    double money = sc.nextDouble();
+                    if (money < price[code]) {
+                        System.out.println("You don't have enough money!");
+                    } else {
+                        System.out.println("Dispensing " + name[code]);
+                        System.out.println("Change: " + (money - price[code]));
+                        quantity[code]--;
+                    }
                 }
             }
         }while(true);
