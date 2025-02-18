@@ -20,6 +20,7 @@ public class OnlineBookstoreSimulator {
                 int code = sc.nextInt() - 1;
                 if (!(code >= 0 && code <= name.length)){
                     System.out.println("Invalid code! Return with a correct code next time!");
+                    break;
                 }
                 System.out.print("Enter your credit card balance: ");
                 double balance = sc.nextDouble() - price[code];
@@ -41,14 +42,18 @@ public class OnlineBookstoreSimulator {
 
     }
     static void printBookInfo(String book) {
-        for(int i = 0;i < name.length; i++){
+        boolean check = true;
+        for(int i = 0; i < name.length; i++){
             if(name[i].equalsIgnoreCase(book)){
                 System.out.println("Book Information: ");
                 System.out.println("Code: " + name[i] + ", Price: " + price[i] + ", Quantity: " + quantity[i]);
+                check = false;
                 break;
             }
         }
-        System.out.println("Sorry! We didn't find this book in our library.");
+        if(check){
+            System.out.println("Sorry! We didn't find this book in our library.");
+        }
     }
     static void printItems(){
         System.out.println("Available Books:");
