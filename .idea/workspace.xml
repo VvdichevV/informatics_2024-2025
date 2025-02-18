@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Made the full rock, paper, scissors, game with everything">
-      <change afterPath="$PROJECT_DIR$/11_02_2025/11_02_2025.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11_02_2025/src/gradebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/src/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.iml" afterDir="false" />
+    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Done the gradebook assignment.">
+      <change afterPath="$PROJECT_DIR$/18.02.2025/18.02.2025.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/18.02.2025/src/VendingMachineSimulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -71,6 +69,7 @@
     "Application.RockPaperScissors.executor": "Run",
     "Application.StudentDiscount.executor": "Run",
     "Application.Vending.executor": "Debug",
+    "Application.VendingMachineSimulator.executor": "Run",
     "Application.addressBookExtended.executor": "Run",
     "Application.compositionTask.executor": "Run",
     "Application.gradebook.executor": "Run",
@@ -165,7 +164,8 @@
       <workItem from="1737446450269" duration="415000" />
       <workItem from="1737447044633" duration="1154000" />
       <workItem from="1737488180043" duration="1231000" />
-      <workItem from="1739263183459" duration="494000" />
+      <workItem from="1739263183459" duration="1588000" />
+      <workItem from="1739866185844" duration="2316000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -311,7 +311,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737447307906</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Done the gradebook assignment.">
+      <option name="closed" value="true" />
+      <created>1739263737442</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1739263737442</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +353,7 @@
     <MESSAGE value="Made Rock, Paper, Scissors title screen (early stages)" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;21_01_2025/src/RockPaperScissors.java" />
     <MESSAGE value="Made the full rock, paper, scissors, game with everything" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made the full rock, paper, scissors, game with everything" />
+    <MESSAGE value="Done the gradebook assignment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Done the gradebook assignment." />
   </component>
 </project>
