@@ -13,7 +13,7 @@ public class LibraryManagement {
         char option;
         System.out.println("Welcome to the Library Management System!");
         do {
-            System.out.println("Enter 'd' to display the library, 'b' to borrow a book, 'r' to return a book, 'f' to find a book, and 'q' to quit: ");
+            System.out.print("Enter 'd' to display the library, 'b' to borrow a book, 'r' to return a book, 'f' to find a book, and 'q' to quit: ");
             option = sc.next().charAt(0);
             switch (option) {
                 case 'd':
@@ -39,6 +39,9 @@ public class LibraryManagement {
                     String searchTitle3 = sc.nextLine();
                     findBookByTitle(books, searchTitle3);
                     break;
+                case 'q':
+                    System.out.println("Thank you for visiting the Library Management System!");
+                    break;
                 default:
                     System.out.println("Invalid option. Try again!");
                     break;
@@ -57,8 +60,8 @@ public class LibraryManagement {
 
     public static void borrowBook(Book[] books, String borrowerName, String searchTitle) {
         for (Book book : books) {
-            if (book.getTitle().equals(searchTitle)) {
-                if (book.getBorrowerName().equals("No borrower")) {
+            if (book.getTitle().equalsIgnoreCase(searchTitle)) {
+                if (book.getBorrowerName().equalsIgnoreCase("No borrower")) {
                     System.out.println("You have borrowed the book successfully!");
                     book.borrowBook(borrowerName);
                 } else {
@@ -72,7 +75,7 @@ public class LibraryManagement {
 
     public static void returnBook(Book[] books, String searchTitle) {
         for (Book book : books) {
-            if (book.getTitle().equals(searchTitle)) {
+            if (book.getTitle().equalsIgnoreCase(searchTitle)) {
                 System.out.println("The book has successfully been returned!");
                 book.returnBook();
                 return;
@@ -83,7 +86,7 @@ public class LibraryManagement {
 
     public static void findBookByTitle(Book[] books, String searchTitle) {
         for (Book book : books) {
-            if (book.getTitle().equals(searchTitle)) {
+            if (book.getTitle().equalsIgnoreCase(searchTitle)) {
                 book.getDetails();
                 return;
             }
