@@ -24,7 +24,6 @@ public class LibraryManagement {
                     sc.nextLine();
                     String searchTitle = sc.nextLine();
                     System.out.print("Enter your name: ");
-                    sc.nextLine();
                     String borrowerName = sc.nextLine();
                     borrowBook(books, borrowerName, searchTitle);
                     break;
