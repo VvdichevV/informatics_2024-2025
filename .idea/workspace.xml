@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Library Management System">
-      <change beforePath="$PROJECT_DIR$/25_02_2025/src/LibraryManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/25_02_2025/src/LibraryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27_03_2025/27_03_2025.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +69,7 @@
     "Application.Inventory.executor": "Run",
     "Application.LibraryManagement.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MovieCollector.executor": "Run",
     "Application.OnlineBookstoreSimulator.executor": "Run",
     "Application.Quiz.executor": "Run",
     "Application.RockPaperScissors.executor": "Debug",
@@ -78,6 +84,8 @@
     "Application.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "253",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "380",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -85,11 +93,11 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/vdichev26/IdeaProjects/informatics_2024-2025/18_10_2024/Main.java",
+    "onboarding.tips.debug.path": "/home/vdichev26/IdeaProjects/informatics_2024-2025/27_03_2025/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -111,14 +119,6 @@
         <item itemvalue="Application.RockPaperScissors" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -169,7 +169,13 @@
       <workItem from="1740470753530" duration="34000" />
       <workItem from="1740470805048" duration="125000" />
       <workItem from="1740471390496" duration="3471000" />
-      <workItem from="1740550968573" duration="2864000" />
+      <workItem from="1740550968573" duration="3230000" />
+      <workItem from="1740725140393" duration="101000" />
+      <workItem from="1740725304387" duration="131000" />
+      <workItem from="1740725436960" duration="232000" />
+      <workItem from="1741680297154" duration="56000" />
+      <workItem from="1741680361624" duration="633000" />
+      <workItem from="1743065970009" duration="5684000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -355,7 +361,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740553705430</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Library Management System">
+      <option name="closed" value="true" />
+      <created>1740554195870</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1740554195870</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,5 +409,20 @@
     <MESSAGE value="Car Gallery task" />
     <MESSAGE value="Library Management System" />
     <option name="LAST_COMMIT_MESSAGE" value="Library Management System" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/27_03_2025/src/MovieCollection.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
