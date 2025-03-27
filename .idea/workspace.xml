@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Library Management System">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27_03_2025/27_03_2025.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Movie Collector Manager start">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/vdichev26.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.form" beforeDir="false" afterPath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +57,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.Calculator.executor": "Run",
     "Application.CarGallery.executor": "Run",
     "Application.EmployeeBonus.executor": "Run",
@@ -84,7 +83,7 @@
     "Application.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "253",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "202",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "380",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -175,7 +174,7 @@
       <workItem from="1740725436960" duration="232000" />
       <workItem from="1741680297154" duration="56000" />
       <workItem from="1741680361624" duration="633000" />
-      <workItem from="1743065970009" duration="5684000" />
+      <workItem from="1743065970009" duration="11413000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -369,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740554195870</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Movie Collector Manager start">
+      <option name="closed" value="true" />
+      <created>1743084158416</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1743084158417</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -408,7 +415,8 @@
     <MESSAGE value="Vending Machine Simulator" />
     <MESSAGE value="Car Gallery task" />
     <MESSAGE value="Library Management System" />
-    <option name="LAST_COMMIT_MESSAGE" value="Library Management System" />
+    <MESSAGE value="Movie Collector Manager start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Movie Collector Manager start" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
