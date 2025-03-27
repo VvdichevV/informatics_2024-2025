@@ -71,11 +71,9 @@ public class MovieCollector extends JFrame {
     }
 
     public void displayMovies() {
-        // Get the table's model and clear previous rows.
         DefaultTableModel model = (DefaultTableModel) movieTable.getModel();
         model.setRowCount(0);
 
-        // Add each movie from the array as a new row.
         for (int i = 0; i < count; i++) {
             Movie movie = movies[i];
             model.addRow(new Object[]{movie.getTitle(), movie.getGenre()});
