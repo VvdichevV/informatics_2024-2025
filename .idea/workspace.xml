@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Movie Collector Manager start">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/vdichev26.xml" afterDir="false" />
+    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Finished the movie collector manager.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.form" beforeDir="false" afterPath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +69,7 @@
     "Application.MovieCollector.executor": "Run",
     "Application.OnlineBookstoreSimulator.executor": "Run",
     "Application.Quiz.executor": "Run",
-    "Application.RockPaperScissors.executor": "Debug",
+    "Application.RockPaperScissors.executor": "Run",
     "Application.StudentDiscount.executor": "Run",
     "Application.Vending.executor": "Debug",
     "Application.VendingMachineSimulator.executor": "Run",
@@ -174,7 +172,8 @@
       <workItem from="1740725436960" duration="232000" />
       <workItem from="1741680297154" duration="56000" />
       <workItem from="1741680361624" duration="633000" />
-      <workItem from="1743065970009" duration="11413000" />
+      <workItem from="1743065970009" duration="12494000" />
+      <workItem from="1743142755483" duration="1045000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -376,7 +375,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743084158417</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Finished the movie collector manager.">
+      <option name="closed" value="true" />
+      <created>1743097762823</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1743097762823</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Finished the movie collector manager.">
+      <option name="closed" value="true" />
+      <created>1743097925528</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1743097925528</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -416,7 +431,8 @@
     <MESSAGE value="Car Gallery task" />
     <MESSAGE value="Library Management System" />
     <MESSAGE value="Movie Collector Manager start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Movie Collector Manager start" />
+    <MESSAGE value="Finished the movie collector manager." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished the movie collector manager." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

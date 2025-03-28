@@ -46,7 +46,7 @@ public class MovieCollector extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 for (int i = 0; i < count; i++) {
-                    if (movies[i].getTitle().equals(addMovieTextField.getText())) {
+                    if (movies[i].getTitle().equalsIgnoreCase(addMovieTextField.getText())) {
                         highlightDisplayMovies();
                         return;
                     }
