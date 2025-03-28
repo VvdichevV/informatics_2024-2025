@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Finished the movie collector manager.">
+      <change afterPath="$PROJECT_DIR$/25_02_2025/src/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/25_02_2025/src/CarGallery.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/29_04_2025/29_04_2025.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/29_04_2025/src/AnimalFarm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/27_03_2025/src/MovieCollector.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +60,14 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.AnimalFarm.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.CarGallery.executor": "Run",
     "Application.EmployeeBonus.executor": "Run",
     "Application.EventHandler.executor": "Run",
     "Application.GuessingGameWithUI.executor": "Run",
     "Application.HonorStudent.executor": "Run",
-    "Application.ImprovedGuessing.executor": "Run",
+    "Application.ImprovedGuessing.executor": "Debug",
     "Application.Inventory.executor": "Run",
     "Application.LibraryManagement.executor": "Run",
     "Application.Main.executor": "Run",
@@ -90,7 +95,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/vdichev26/IdeaProjects/informatics_2024-2025/27_03_2025/src/Main.java",
+    "onboarding.tips.debug.path": "/home/vdichev26/IdeaProjects/informatics_2024-2025/29_04_2025/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -173,7 +178,8 @@
       <workItem from="1741680297154" duration="56000" />
       <workItem from="1741680361624" duration="633000" />
       <workItem from="1743065970009" duration="12494000" />
-      <workItem from="1743142755483" duration="1045000" />
+      <workItem from="1743142755483" duration="2478000" />
+      <workItem from="1745911398356" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -391,7 +397,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743097925528</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Finished the movie collector manager.">
+      <option name="closed" value="true" />
+      <created>1743144534179</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1743144534179</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
