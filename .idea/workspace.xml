@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Finished the movie collector manager.">
-      <change afterPath="$PROJECT_DIR$/25_02_2025/src/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/25_02_2025/src/CarGallery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/29_04_2025/29_04_2025.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/29_04_2025/src/AnimalFarm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="607ffdba-41c9-445c-8862-dedd44efe094" name="Changes" comment="Finished the movie collector manager." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +60,7 @@
     "Application.EventHandler.executor": "Run",
     "Application.GuessingGameWithUI.executor": "Run",
     "Application.HonorStudent.executor": "Run",
-    "Application.ImprovedGuessing.executor": "Debug",
+    "Application.ImprovedGuessing.executor": "Run",
     "Application.Inventory.executor": "Run",
     "Application.LibraryManagement.executor": "Run",
     "Application.Main.executor": "Run",
@@ -180,6 +173,7 @@
       <workItem from="1743065970009" duration="12494000" />
       <workItem from="1743142755483" duration="2478000" />
       <workItem from="1745911398356" duration="1191000" />
+      <workItem from="1745912623908" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
       <option name="closed" value="true" />
@@ -405,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743144534179</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Finished the movie collector manager.">
+      <option name="closed" value="true" />
+      <created>1745912656706</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1745912656706</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,6 +447,7 @@
     <MESSAGE value="Car Gallery task" />
     <MESSAGE value="Library Management System" />
     <MESSAGE value="Movie Collector Manager start" />
+    <MESSAGE value="Animal farm task" />
     <MESSAGE value="Finished the movie collector manager." />
     <option name="LAST_COMMIT_MESSAGE" value="Finished the movie collector manager." />
   </component>

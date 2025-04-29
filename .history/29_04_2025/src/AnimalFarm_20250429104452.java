@@ -1,5 +1,6 @@
 public class AnimalFarm {
     public static void main(String[] args) {
+        System.out.println("test");
         Animal[] farmAnimals = {
                 new Chicken(1, "Henrietta", 2, "female"),
                 new Cow(2, "Bessie", 4, "female"),
