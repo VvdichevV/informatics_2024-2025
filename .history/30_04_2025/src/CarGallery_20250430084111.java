@@ -1,10 +1,11 @@
-public class AnimalFarm {
+public class CarGallery {
     public static void main(String[] args) {
-        Animal[] farmAnimals = {
-                new Chicken(1, "Henrietta", 2, "female"),
-                new Cow(2, "Bessie", 4, "female"),
-                new Pig(3, "Napoleon", 5, "male"),
-        };
+        Car[] carArray = {
+            new Car("Toyota", "Camry", 2020, 25000, false),
+            new Car("Honda", "Civic", 2016, 15000, true),
+            new Car("Ford", "Fusion", 2019, 20000, false),
+            new Car("Porsche", "Cayman", 2021, 100000, false),
+    };
 
         System.out.println("Morning on the farm!");
         for (Animal animal : farmAnimals) {
@@ -12,18 +13,18 @@ public class AnimalFarm {
             System.out.println(animal.getName() + " produces: " + animal.getProduct());
             System.out.println();
         }
-        // The output will be each animal making a noise and then saying the product it produces
+
     }
 }
 
-class Animal {
-    int id;
+class Car {
+    int model;
     String name;
     int age;
     String gender;
 
     public Animal(int id, String name, int age, String gender) {
-            this.id = id;
+        this.id = id;
         this.name = name;
         this.age = age;
         this.gender = gender;

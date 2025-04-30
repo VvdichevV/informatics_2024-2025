@@ -1,9 +1,7 @@
-public class AnimalFarm {
+public class CarGallery {
     public static void main(String[] args) {
-        Animal[] farmAnimals = {
-                new Chicken(1, "Henrietta", 2, "female"),
-                new Cow(2, "Bessie", 4, "female"),
-                new Pig(3, "Napoleon", 5, "male"),
+        Animal[] gallery = {
+
         };
 
         System.out.println("Morning on the farm!");
@@ -12,7 +10,7 @@ public class AnimalFarm {
             System.out.println(animal.getName() + " produces: " + animal.getProduct());
             System.out.println();
         }
-        // The output will be each animal making a noise and then saying the product it produces
+
     }
 }
 
@@ -23,7 +21,7 @@ class Animal {
     String gender;
 
     public Animal(int id, String name, int age, String gender) {
-            this.id = id;
+        this.id = id;
         this.name = name;
         this.age = age;
         this.gender = gender;

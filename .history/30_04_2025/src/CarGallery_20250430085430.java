@@ -9,11 +9,9 @@ public class CarGallery {
     };
 
         System.out.println("Check out this car gallery!");
-        for (Car car : carArray) {
-            car.display();
-            car.statePurpose();
-            car.makeNoise();
-            car.repair();
+        for (Animal animal : farmAnimals) {
+            animal.makeSound();
+            System.out.println(animal.getName() + " produces: " + animal.getProduct());
             System.out.println();
         }
 
@@ -41,7 +39,7 @@ class Car {
         System.out.println(make + " " + model + " is for general driving.");
     }
     public void display() {
-        System.out.println("Car: " + make + " " + model + ", Year: " + year + ", Price: " + price + " BGN");
+        System.out.println("Car: " + make + " " + model + ", Year: " + year + ", Price: " + price + "BGN");
     }
 }
 
@@ -53,10 +51,6 @@ class SUV extends Car {
     public void makeNoise() {
         System.out.println("Honk honk!");
     }
-    @Override
-    public void statePurpose() {
-        System.out.println(make + " " + model + " is for off-road driving.");
-    }
 }
 
 class SportsCar extends Car {
@@ -66,9 +60,5 @@ class SportsCar extends Car {
     @Override
     public void makeNoise() {
         System.out.println("VROOOOM!");
-    }
-    @Override
-    public void statePurpose() {
-        System.out.println(make + " " + model + " is for racing.");
     }
 }

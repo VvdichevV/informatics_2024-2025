@@ -14,6 +14,7 @@ public class CarGallery {
             car.statePurpose();
             car.makeNoise();
             car.repair();
+            car.display();
             System.out.println();
         }
 

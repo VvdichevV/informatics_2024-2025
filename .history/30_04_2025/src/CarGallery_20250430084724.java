@@ -4,16 +4,13 @@ public class CarGallery {
             new Car("Toyota", "Camry", 2020, 25000),
             new Car("Ford", "Fusion", 2019, 20000),
             new Car("Honda", "Civic", 2016, 15000),
-            new SportsCar("Porsche", "911 Carrera", 1973, 278000),
-            new SUV("Jeep", "Wrangler", 2021, 35000),
+            new Car("Porsche", "Cayman", 2021, 100000),
     };
 
-        System.out.println("Check out this car gallery!");
-        for (Car car : carArray) {
-            car.display();
-            car.statePurpose();
-            car.makeNoise();
-            car.repair();
+        System.out.println("Morning on the farm!");
+        for (Animal animal : farmAnimals) {
+            animal.makeSound();
+            System.out.println(animal.getName() + " produces: " + animal.getProduct());
             System.out.println();
         }
 
@@ -34,15 +31,6 @@ class Car {
     public void makeNoise() {
         System.out.println("Vroom vroom!");
     }
-    public void repair() {
-        System.out.println("Repairing " + make + " " + model);
-    }
-    public void statePurpose() {
-        System.out.println(make + " " + model + " is for general driving.");
-    }
-    public void display() {
-        System.out.println("Car: " + make + " " + model + ", Year: " + year + ", Price: " + price + " BGN");
-    }
 }
 
 class SUV extends Car {
@@ -53,10 +41,6 @@ class SUV extends Car {
     public void makeNoise() {
         System.out.println("Honk honk!");
     }
-    @Override
-    public void statePurpose() {
-        System.out.println(make + " " + model + " is for off-road driving.");
-    }
 }
 
 class SportsCar extends Car {
@@ -65,10 +49,6 @@ class SportsCar extends Car {
     }
     @Override
     public void makeNoise() {
-        System.out.println("VROOOOM!");
-    }
-    @Override
-    public void statePurpose() {
-        System.out.println(make + " " + model + " is for racing.");
+        System.out.println("VOROOOOM!");
     }
 }

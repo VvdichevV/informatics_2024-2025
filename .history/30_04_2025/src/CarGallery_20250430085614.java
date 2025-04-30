@@ -10,10 +10,8 @@ public class CarGallery {
 
         System.out.println("Check out this car gallery!");
         for (Car car : carArray) {
-            car.display();
-            car.statePurpose();
-            car.makeNoise();
-            car.repair();
+            animal.makeSound();
+            System.out.println(animal.getName() + " produces: " + animal.getProduct());
             System.out.println();
         }
 
