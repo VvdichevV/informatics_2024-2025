@@ -16,7 +16,8 @@ public class BinaryFiles {
                 outStream.writeInt(i);
                 outStream.writeInt(((int) (Math.random() * (12 - 8)) + 8));
                 outStream.writeUTF(String.format("%.2f", ((Math.random() * (6 - 2)) + 2)));
-      
+                // outStream.writeUTF("Student ID: " + (i + 1) + ", Name: " + i + ", Grade: "
+                // + + ", GPA: " + String.format("%.2f", ((Math.random() * (6 - 2)) + 2)));
             }
 
         } catch (IOException e) {
