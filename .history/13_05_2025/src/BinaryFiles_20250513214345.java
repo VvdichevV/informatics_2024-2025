@@ -30,9 +30,9 @@ public class BinaryFiles {
             try {
                 while (true) {
                     System.out.print("Student ID: " + inStream.readInt());
-                    System.out.print(", Name: " + inStream.readInt());
-                    System.out.print(", Grade: " + inStream.readInt());
-                    System.out.println(", GPA: " + inStream.readUTF());
+                    System.out.print("Name: " + inStream.readInt());
+                    System.out.print("Grade: " + inStream.readInt());
+                    System.out.print("GPA: " + inStream.readUTF());
                 }
             } catch (EOFException e) {
                 System.out.println("oops " + e.getMessage());

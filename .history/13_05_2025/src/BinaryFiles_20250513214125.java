@@ -14,10 +14,9 @@ public class BinaryFiles {
             for (int i = 0; i < 5; i++) {
                 outStream.writeInt(i+1);
                 outStream.writeInt(i);
-                outStream.writeInt(((int) (Math.random() * (12 - 8)) + 8));
-                outStream.writeUTF(String.format("%.2f", ((Math.random() * (6 - 2)) + 2)));
-                //outStream.writeUTF("Student ID: " + (i + 1) + ", Name: " + i + ", Grade: "
-                 //       +  + ", GPA: " + String.format("%.2f", ((Math.random() * (6 - 2)) + 2)));
+                outStream.
+                outStream.writeUTF("Student ID: " + (i + 1) + ", Name: " + i + ", Grade: "
+                        + ((int) (Math.random() * (12 - 8)) + 8) + ", GPA: " + String.format("%.2f", ((Math.random() * (6 - 2)) + 2)));
             }
 
         } catch (IOException e) {
@@ -29,10 +28,7 @@ public class BinaryFiles {
         try (DataInputStream inStream = new DataInputStream(new FileInputStream(path))) {
             try {
                 while (true) {
-                    System.out.print("Student ID: " + inStream.readInt());
-                    System.out.print(", Name: " + inStream.readInt());
-                    System.out.print(", Grade: " + inStream.readInt());
-                    System.out.println(", GPA: " + inStream.readUTF());
+                    System.out.println(inStream.readUTF());
                 }
             } catch (EOFException e) {
                 System.out.println("oops " + e.getMessage());
