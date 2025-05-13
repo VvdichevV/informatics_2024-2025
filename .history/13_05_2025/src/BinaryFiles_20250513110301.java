@@ -13,7 +13,7 @@ public class BinaryFiles {
             String[] namesString = { "Victor, Ahmed, John, Fatima, Dan" };
             for (int i = 0; i < 5; i++) {
                 outStream.writeUTF("Student ID: " + (i + 1) + ", Name: " + i + ", Grade: "
-                        + ((int) (Math.random() * (12 - 8)) + 8) + ", GPA: " + String.format("%.2f", ((Math.random() * (6 - 2)) + 2)));
+                        + ((int) (Math.random() * (12 - 8)) + 8) + ", GPA: " + String.format(, ((Math.random() * (6 - 2)) + 2)));
             }
 
         } catch (IOException e) {

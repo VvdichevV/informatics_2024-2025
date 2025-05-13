@@ -25,7 +25,7 @@ public class BinaryFiles {
         try (DataInputStream inStream = new DataInputStream(new FileInputStream(path))) {
             try {
                 while (true) {
-                    System.out.println(inStream.readUTF());
+                    System.out.println(""inStream.readUTF());
                 }
             } catch (EOFException e) {
                 System.out.println("oops " + e.getMessage());
