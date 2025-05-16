@@ -8,10 +8,9 @@ public class ObjectSerialization {
         emp1.writeToFile("sample.txt");
         emp1.readFromFile("sample.txt");
         emp2.writeToFile("sample.txt");
-        emp2.readFromFile("sample.txt");
         emp3.writeToFile("sample.txt");
-        emp3.readFromFile("sample.txt");
-        
+
+        .readFromFile("sample.txt");
 
     }
 }
@@ -52,10 +51,9 @@ class Employee implements Serializable {
             try {
                 while (true) {
                     Employee student = (Employee) inStream.readObject();
-                    System.out.println();
                     System.out.println("ID: " + student.getId());
                     System.out.println("Name: " + student.getName());
-                    System.out.println("Salary: " + student.getSalary());
+                    System.out.println("Salary: " + student.getSalary())
                 }
             } catch (EOFException e) {
                 System.out.println("End of file reached.");

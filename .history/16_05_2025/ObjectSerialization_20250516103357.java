@@ -2,16 +2,14 @@ import java.io.*;
 
 public class ObjectSerialization {
     public static void main(String[] args) {
-        Employee emp1 = new Employee(1, "Victor", 1000000);
-        Employee emp2 = new Employee(2, "Ivan", 13435);
-        Employee emp3 = new Employee(3, "Ivo", 325704);
-        emp1.writeToFile("sample.txt");
-        emp1.readFromFile("sample.txt");
-        emp2.writeToFile("sample.txt");
-        emp2.readFromFile("sample.txt");
-        emp3.writeToFile("sample.txt");
-        emp3.readFromFile("sample.txt");
-        
+        Student student = new Student(1, "Victor", 11, 4.0);
+        Student student2 = new Student(2, "Ivan", 11, 2.0);
+        Student student3 = new Student(3, "Ivo", 11, 3.0);
+        student.writeToFile("sample.txt");
+        student2.writeToFile("sample.txt");
+        student3.writeToFile("sample.txt");
+
+        student.readFromFile("sample.txt");
 
     }
 }
@@ -19,12 +17,13 @@ public class ObjectSerialization {
 class Employee implements Serializable {
     private int id;
     private String name;
-    private double salary;
+    private double gpa;
 
-    public Employee(int id, String name, double salary) {
+    public Student(int id, String name, int grade, double gpa) {
         this.id = id;
         this.name = name;
-        this.salary = salary;
+        this.grade = grade;
+        this.gpa = gpa;
     }
 
     public int getId() {
@@ -35,8 +34,12 @@ class Employee implements Serializable {
         return name;
     }
 
-    public double getSalary() {
-        return salary;
+    public int getGrade() {
+        return grade;
+    }
+
+    public double getGpa() {
+        return gpa;
     }
 
     public void writeToFile(String path) {
@@ -51,11 +54,11 @@ class Employee implements Serializable {
         try (ObjectInputStream inStream = new ObjectInputStream(new FileInputStream(path))) {
             try {
                 while (true) {
-                    Employee student = (Employee) inStream.readObject();
-                    System.out.println();
+                    Student student = (Student) inStream.readObject();
                     System.out.println("ID: " + student.getId());
                     System.out.println("Name: " + student.getName());
-                    System.out.println("Salary: " + student.getSalary());
+                    System.out.println("Grade: " + student.getGrade());
+                    System.out.println("GPA: " + student.getGpa());
                 }
             } catch (EOFException e) {
                 System.out.println("End of file reached.");

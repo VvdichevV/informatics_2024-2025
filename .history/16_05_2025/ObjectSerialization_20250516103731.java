@@ -52,7 +52,6 @@ class Employee implements Serializable {
             try {
                 while (true) {
                     Employee student = (Employee) inStream.readObject();
-                    System.out.println();
                     System.out.println("ID: " + student.getId());
                     System.out.println("Name: " + student.getName());
                     System.out.println("Salary: " + student.getSalary());
